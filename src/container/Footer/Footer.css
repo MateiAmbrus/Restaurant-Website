@@ -1,0 +1,42 @@
+.app__footer {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color-orange);
+}
+.app__footer img {
+  width: 10.40625vw;
+  margin: 20px 0;
+}
+.app__social-media-icons svg {
+  color: white;
+  margin: 10px 10px;
+}
+.app__footer-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.app__footer-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.app__footer-information-list {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 70px 0px 40px 0px;
+}
+.app__footer-information-list li {
+  margin: 0px 30px;
+  font-size: 14px;
+}

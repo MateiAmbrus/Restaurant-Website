@@ -1,0 +1,37 @@
+.app__echipa-img img {
+  width: 36%;
+  position: absolute;
+  top: 81px;
+  left: 989px;
+  z-index: 2;
+  height: 80%;
+}
+.app__echipa_section {
+  position: relative;
+  height: 500px;
+}
+.app__echipa_text {
+  z-index: 1;
+  position: absolute;
+  width: 754px;
+  height: 396px;
+  background-color: var(--color-white);
+  top: 81px;
+  left: 236px;
+  padding: 51px 219px 96px 175px;
+  box-shadow: -10px 10px rgba(210, 210, 210, 0.8);
+}
+.app__echipa_text h1 {
+  color: var(--color-orange);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.app__echipa_text h3 {
+  color: var(--color-orange);
+  font-size: 25px;
+  font-weight: initial;
+  margin-bottom: 25px;
+}
+.app__echipa_text p {
+  color: var(--color-grey);
+}

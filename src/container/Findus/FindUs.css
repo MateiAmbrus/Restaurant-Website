@@ -1,0 +1,41 @@
+.app__section_contact {
+  z-index: 2;
+  position: absolute;
+  width: 487px;
+  height: 491px;
+  background-color: var(--color-orange);
+  top: 60px;
+  left: 1026px;
+  padding: 50px 65px;
+}
+.app__section_contact_map {
+  position: relative;
+}
+.app__section_contact {
+  color: var(--color-white);
+  font-family: var(--font-alt);
+}
+.app__section_contact h2 {
+  font-size: 40px;
+}
+.app__contact ul {
+  list-style: none;
+}
+.app__contact li {
+  padding: 10px 0px;
+}
+.app__porgram ul {
+  list-style: none;
+}
+.app__porgram li {
+  padding: 10px 0px;
+}
+.app__porgram h3 {
+  font-size: 30px;
+}
+.app__contact {
+  margin-bottom: 25px;
+}
+span {
+  font-weight: bold;
+}

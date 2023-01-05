@@ -1,0 +1,49 @@
+.app__header {
+  background-color: var(--color-orange);
+}
+
+.app__header-h1 {
+  text-align: center;
+  font-family: var(--font-header);
+  color: var(--color-white);
+  line-height: 117px;
+  font-size: 90px;
+}
+
+.app__header-img img {
+  width: 100%;
+}
+.app__header-buttons {
+  margin: auto;
+  width: 41%;
+}
+.app__header-buttons button {
+  display: block;
+  border: 2px solid white;
+}
+.custom__button1 {
+  background-color: var(--color-white);
+  color: var(--color-orange);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 4.95rem;
+  border-radius: 1px;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+}
+.custom__button2 {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  cursor: pointer;
+}

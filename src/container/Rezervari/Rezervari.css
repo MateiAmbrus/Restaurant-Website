@@ -1,0 +1,140 @@
+.app__booking_img {
+  background-color: var(--color-orange);
+  height: 750px;
+  width: 94%;
+  margin: auto;
+  position: relative;
+  margin-top: 30px;
+}
+.app__booking {
+  padding: 129px 141px;
+  position: absolute;
+  width: 50%;
+  color: var(--color-white);
+  font-family: var(--font-alt);
+}
+.booking_btn1 {
+  background-color: var(--color-white);
+  color: var(--color-orange);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 4.95rem;
+  border-radius: 1px;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+}
+.booking_btn2 {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: 2px solid var(--color-white);
+  outline: none;
+  cursor: pointer;
+}
+.nume_prenume {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+}
+.telefon_email {
+  display: block;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+}
+.app__booking input[type="text"] {
+  font-family: "Trocchi";
+  font-size: 1vw;
+  color: #fff;
+  font-weight: 100;
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom: 0.14vw solid #fff;
+  line-height: 2.03125vw;
+  margin-right: 30px;
+}
+.app__booking select {
+  font-family: "Trocchi";
+  font-size: 1vw;
+  color: #fff;
+  font-weight: 100;
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom: 0.14vw solid #fff;
+}
+.app__booking label {
+  font-size: 1vw;
+  padding-right: 0.9375vw;
+}
+.nrPers_ora_data {
+  margin: 30px 0px;
+}
+.nrPers_ora_data select {
+  margin-right: 20px;
+}
+.locatia_mesei {
+  margin: 30px 0px;
+}
+.cerinte_suplimentare input[type="text"] {
+  color: #fff;
+  font-weight: 100;
+  background: transparent;
+}
+.buton_text {
+  margin: 30px 0px;
+}
+.cerinte_suplimentare input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: var(--color-orange);
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin-right: 20px;
+}
+.cerinte_suplimentare input[type="checkbox"]:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.cerinte_suplimentare input[type="checkbox"]:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.cerinte_suplimentare input[type="checkbox"]::after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 50px;
+  color: #fff;
+}
+.app__img {
+  left: 808px;
+  position: absolute;
+  top: 76px;
+}
+.app__img img {
+  height: 600px;
+}

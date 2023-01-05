@@ -1,0 +1,37 @@
+.app__about-us-img img {
+  width: 36%;
+  position: absolute;
+  top: 81px;
+  left: 988px;
+  z-index: 2;
+  height: 80%;
+}
+.app__about-us_section {
+  position: relative;
+  height: 500px;
+}
+.app__about-us_text {
+  z-index: 1;
+  position: absolute;
+  width: 754px;
+  height: 396px;
+  background-color: var(--color-white);
+  top: 81px;
+  left: 222px;
+  padding: 51px 219px 96px 175px;
+  box-shadow: -10px 10px rgba(210, 210, 210, 0.8);
+}
+.app__about-us_text h1 {
+  color: var(--color-orange);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.app__about-us_text h3 {
+  color: var(--color-orange);
+  font-size: 25px;
+  font-weight: initial;
+  margin-bottom: 25px;
+}
+.app__about-us_text p {
+  color: var(--color-grey);
+}

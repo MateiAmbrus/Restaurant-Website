@@ -1,0 +1,95 @@
+.app__section_form {
+  z-index: 2;
+  position: absolute;
+  width: 496px;
+  height: 491px;
+  background-color: var(--color-white);
+  top: 63px;
+  left: 1039px;
+  padding: 0px 65px;
+  color: var(--color-orange);
+  font-family: var(--font-alt);
+}
+.app__section_text_form {
+  position: relative;
+  height: 777px;
+}
+.app__section_text {
+  height: 500px;
+  width: 30%;
+  margin: auto;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  position: absolute;
+  left: 244px;
+  top: 109px;
+  font-family: var(--font-alt);
+  padding: 42px 83px;
+}
+.app__section_text h1 {
+  margin-bottom: 50px;
+}
+.app__section_text h3 {
+  margin-left: 223px;
+  margin-top: 15px;
+}
+.app__form label {
+  display: block;
+}
+#slecialLabel {
+  display: inline-block;
+  margin: 10px 7px;
+}
+.app__form input {
+  width: 400px;
+  height: 30px;
+  border: 2px solid bisque;
+  border-radius: 7px;
+}
+.app__form textarea {
+  border: 2px solid bisque;
+  border-radius: 7px;
+  width: 400px;
+  height: 200px;
+  display: block;
+}
+.app__section_text p {
+  margin-bottom: 30px;
+}
+.app__section_form h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.app__form ul {
+  list-style: none;
+}
+.app__form li {
+  padding: 10px 0px;
+}
+.app__porgram ul {
+  list-style: none;
+}
+.app__porgram li {
+  padding: 10px 0px;
+}
+.app__porgram h3 {
+  font-size: 30px;
+}
+.app__form {
+  margin-bottom: 25px;
+}
+span {
+  font-weight: bold;
+}
+#submitBtn {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  height: 45px;
+  display: block;
+}
